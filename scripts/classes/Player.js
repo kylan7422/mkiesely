@@ -6,7 +6,7 @@ class Player{
     this.towers=[]
     this.enemies=[]
     this.numberSpawn=3
-    this.controlSpeed=10
+    this.controlSpeed=3
   }
   update(){
     money.innerHTML=`${p.money} 💰`
